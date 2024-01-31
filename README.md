@@ -3,6 +3,14 @@
 Reliable Data Transfer Protocol (RDT) 2.2 Implementation
 This project is a Python implementation of the Reliable Data Transfer Protocol (RDT) version 2.2. It simulates the sending of a message from a sender to a receiver over a network with a specified reliability and delay.
 
+## Protocol Design
+
+Finite State Machine of the sender side of RDT-2.2
+![FSM-sender](assets/fsm_sender.png)
+
+Finite State Machine of the receiver side of RDT-2.2
+![FSM-sender](assets/fsm_receiver.png)
+
 ## Project Structure
 The project is structured into several Python files, each representing a different component of the system:
 
